@@ -1,1 +1,18 @@
-# Created by .ignore support plugin (hsz.mobi)
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+#Gradle
+.gradletasknamecache
+.gradle/
+build/
+gradle/wrapper
+
+# generated files
+bin/
+gen/
+classes/
+generated/
+out/
