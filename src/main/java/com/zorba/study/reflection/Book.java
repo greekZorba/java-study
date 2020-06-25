@@ -15,9 +15,17 @@ public class Book {
     public Book() {
     }
 
+    public Book(String a) {
+        this.a = a;
+    }
+
     public Book(String a, String d, String e) {
         this.a = a;
         this.d = d;
         this.e = e;
+    }
+
+    public int sum(int f, int g) {
+        return f + g;
     }
 }
