@@ -5,3 +5,6 @@
 - ASM
 - javassist
 - ByteBuddy
+
+## 다이나믹 프록시 
+- 스프링 데이터 JPA도 스프링의 Proxy를 이용함
