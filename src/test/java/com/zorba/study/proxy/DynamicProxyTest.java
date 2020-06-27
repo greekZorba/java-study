@@ -9,7 +9,7 @@ import java.lang.reflect.Proxy;
 /**
  * 런타임에 특정 인터페이스를 구현하는 클래스 또는 인스턴스를 만드는 기술
  * */
-public class BookServiceTest {
+public class DynamicProxyTest {
 
     // 다이나믹 프록시 사용시, 전달해주는 객체가 반드시 인터페이스여야 동작함
     BookService bookService = (BookService) Proxy.newProxyInstance(BookService.class.getClassLoader(), new Class[]{BookService.class}, new InvocationHandler() {
