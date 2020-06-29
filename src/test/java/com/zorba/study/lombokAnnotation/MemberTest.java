@@ -1,4 +1,4 @@
-package com.zorba.study.lombokannotation;
+package com.zorba.study.lombokAnnotation;
 
 import org.junit.jupiter.api.Test;
 

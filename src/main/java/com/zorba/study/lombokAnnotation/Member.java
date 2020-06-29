@@ -1,4 +1,4 @@
-package com.zorba.study.lombokannotation;
+package com.zorba.study.lombokAnnotation;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

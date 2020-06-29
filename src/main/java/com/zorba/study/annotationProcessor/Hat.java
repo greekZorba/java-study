@@ -1,4 +1,9 @@
 package com.zorba.study.annotationProcessor;
 
-public class Hat {
+import com.sample.magic.Magic;
+
+@Magic
+public interface Hat {
+
+    public String pullOut();
 }
